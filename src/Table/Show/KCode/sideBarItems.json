@@ -31,5 +31,17 @@
                 "icon": "bi bi-plus-circle"
             }
         ]
+    },
+    {
+        "name": "Import",
+        "key": "import",
+        "icon": "bi bi-back",
+        "children": [
+            {
+                "name": "Simple",
+                "url": "import-Simple.html",
+                "icon": "bi bi-plus-circle"
+            }
+        ]
     }
 ]

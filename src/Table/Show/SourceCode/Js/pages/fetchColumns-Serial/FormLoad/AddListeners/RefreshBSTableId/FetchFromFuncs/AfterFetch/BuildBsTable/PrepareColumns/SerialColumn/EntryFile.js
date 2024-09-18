@@ -2,11 +2,13 @@ const StartFunc = () => {
     return {
         field: "#",
         title: "#",
-        Formatter: jFLocalSerialColumn
+        formatter: jFLocalSerialColumn
     };
 };
 
 const jFLocalSerialColumn = (value, row, index) => {
+    console.log("aaaaaaaa : ", value, row, index);
+
     return index + 1;
 };
 
