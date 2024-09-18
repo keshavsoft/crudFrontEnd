@@ -1,57 +1,35 @@
 [
     {
-        "name": "CRUD",
-        "isTitle": true,
-        "icon": "bi bi-back"
+        "name": "ItemNames",
+        "key": "ItemNames",
+        "children": [
+            {
+                "name": "CreateSingle",
+                "url": "ItemNamesCreateSingle.html",
+                "icon": "bi bi-plus-circle"
+            },
+            {
+                "name": "ShowWithInsert",
+                "url": "ItemNamesShow.html",
+                "icon": "bi bi-file-earmark-plus"
+            }
+        ]
     },
     {
-        "name": "Create",
-        "url": "Create.html",
-        "icon": "bi bi-plus-circle"
-    },
-    {
-        "name": "CreateWithMail",
-        "url": "CreateSendEmail.html",
-        "icon": "bi bi-plus-circle"
-    },
-    {
-        "name": "CreateCamera",
-        "url": "CreateCamera.html",
-        "icon": "bi bi-camera-fill"
-    },
-    {
-        "name": "CreateCameraOnModal",
-        "url": "CreateCameraOnModal.html",
-        "icon": "bi bi-camera-video-fill"
-    },
-    {
-        "name": "Show",
-        "url": "ShowSSRMobile.html",
-        "icon": "bi bi-table"
-    },
-    {
-        "name": "ShowNoSerial",
-        "url": "ShowNoSerial.html",
-        "icon": "bi bi-file-earmark-spreadsheet"
-    },
-    {
-        "name": "ShowWithInsert",
-        "url": "ShowTableFooterAddSSR.html",
-        "icon": "bi bi-file-earmark-plus"
-    },
-    {
-        "name": "Alter",
-        "url": "AlterWithSSR.html",
-        "icon": "bi bi-box-arrow-up-right"
-    },
-    {
-        "name": "ShowWithImage",
-        "url": "ShowWithImage.html",
-        "icon": "bi bi-filetype-jpg"
-    },
-    {
-        "name": "Delete",
-        "url": "DeleteSSR.html",
-        "icon": "bi bi-trash3"
+        "name": "FetchColumns",
+        "key": "fetchColumns",
+        "icon": "bi bi-back",
+        "children": [
+            {
+                "name": "Simple",
+                "url": "fetchColumns-Simple.html",
+                "icon": "bi bi-plus-circle"
+            },
+            {
+                "name": "Serial",
+                "url": "fetchColumns-Serial.html",
+                "icon": "bi bi-plus-circle"
+            }
+        ]
     }
 ]
