@@ -39,6 +39,11 @@
                 "name": "SerialPageWise",
                 "url": "fetchColumns-SerialPageNation.html",
                 "icon": "bi bi-plus-circle"
+            },
+            {
+                "name": "SerialPageCustom",
+                "url": "fetchColumns-SerialPageCustom.html",
+                "icon": "bi bi-plus-circle"
             }
            
         ]
