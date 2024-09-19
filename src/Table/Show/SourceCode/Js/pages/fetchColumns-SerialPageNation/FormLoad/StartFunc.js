@@ -2,7 +2,7 @@
 import { StartFunc as AddListeners } from "./AddListeners/StartFunc.js";
 
 const StartFunc = () => {
-    //  StartFuncBuildBsTable();
+    // StartFuncBuildBsTable();
     AddListeners();
 };
 
