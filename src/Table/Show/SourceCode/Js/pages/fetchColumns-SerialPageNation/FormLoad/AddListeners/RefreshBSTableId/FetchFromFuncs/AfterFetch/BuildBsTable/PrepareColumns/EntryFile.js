@@ -1,3 +1,5 @@
+import { StartFunc as SerialColumn } from "./SerialColumn/EntryFile.js";
+
 const StartFunc = ({ inFirstRow }) => {
     let jVarLocalReturnArray = [];
 
@@ -7,6 +9,8 @@ const StartFunc = ({ inFirstRow }) => {
             title: key
         });
     }
+
+    jVarLocalReturnArray.unshift(SerialColumn());
 
     return jVarLocalReturnArray;
 };
