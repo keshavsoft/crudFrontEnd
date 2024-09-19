@@ -26,10 +26,21 @@
                 "icon": "bi bi-plus-circle"
             },
             {
+                "name": "SimplePageWise",
+                "url": "fetchColumns-SimplePageNation.html",
+                "icon": "bi bi-plus-circle"
+            },
+            {
                 "name": "Serial",
                 "url": "fetchColumns-Serial.html",
                 "icon": "bi bi-plus-circle"
+            },
+            {
+                "name": "SerialPageWise",
+                "url": "fetchColumns-SerialPageNation.html",
+                "icon": "bi bi-plus-circle"
             }
+           
         ]
     },
     {
