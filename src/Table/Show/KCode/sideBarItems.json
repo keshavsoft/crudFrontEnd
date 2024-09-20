@@ -44,8 +44,12 @@
                 "name": "SerialPageCustom",
                 "url": "fetchColumns-SerialPageCustom.html",
                 "icon": "bi bi-plus-circle"
+            },
+            {
+                "name": "SerialPageCall",
+                "url": "fetchColumns-SeriPageCusCall.html",
+                "icon": "bi bi-plus-circle"
             }
-           
         ]
     },
     {
