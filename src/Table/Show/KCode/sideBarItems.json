@@ -53,6 +53,28 @@
         ]
     },
     {
+        "name": "SocialMedia",
+        "key": "socialMedia",
+        "icon": "bi bi-back",
+        "children": [
+            {
+                "name": "Call",
+                "url": "socialMedia-SeriPageCusCall.html",
+                "icon": "bi bi-plus-circle"
+            },
+            {
+                "name": "WhatsApp",
+                "url": "socialMedia-WhatsApp.html",
+                "icon": "bi bi-plus-circle"
+            },
+            {
+                "name": "Serial",
+                "url": "fetchColumns-Serial.html",
+                "icon": "bi bi-plus-circle"
+            }
+        ]
+    },
+    {
         "name": "Import",
         "key": "import",
         "icon": "bi bi-back",
