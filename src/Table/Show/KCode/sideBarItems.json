@@ -68,8 +68,8 @@
                 "icon": "bi bi-plus-circle"
             },
             {
-                "name": "Serial",
-                "url": "fetchColumns-Serial.html",
+                "name": "GDrive",
+                "url": "fetchColumns-WA-GDrive.html",
                 "icon": "bi bi-plus-circle"
             }
         ]
