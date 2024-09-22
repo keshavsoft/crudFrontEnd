@@ -75,6 +75,30 @@
         ]
     },
     {
+        "name": "Charts",
+        "key": "charts",
+        "icon": "bi bi-back",
+        "children": [
+            {
+                "name": "Bar",
+                "url": "charts-Bar.html",
+                "icon": "bi bi-plus-circle"
+            }
+        ]
+    },
+    {
+        "name": "Sort",
+        "key": "sort",
+        "icon": "bi bi-back",
+        "children": [
+            {
+                "name": "GraduationCGPA",
+                "url": "sort-GraduationCGPA.html",
+                "icon": "bi bi-plus-circle"
+            }
+        ]
+    },
+    {
         "name": "Import",
         "key": "import",
         "icon": "bi bi-back",
