@@ -1,15 +1,11 @@
 import { StartFunc as SerialColumn } from "./SerialColumn/EntryFile.js";
 import { StartFunc as CallColumn } from "./CallColumn/EntryFile.js";
 
-const StartFunc = ({ inFirstRow }) => {
-    let jVarLocalReturnArray = [];
+const StartFunc = ({ inColumnsArray }) => {
+    let jVarLocalReturnArray = inColumnsArray;
 
-    for (const [key, value] of Object.entries(inFirstRow)) {
-        jVarLocalReturnArray.push({
-            field: key,
-            title: key
-        });
-    }
+    jVarLocalReturnArray[2].sortable = true;
+    jVarLocalReturnArray[9].sortable = true;
 
     jVarLocalReturnArray.unshift(CallColumn());
     jVarLocalReturnArray.unshift(SerialColumn());

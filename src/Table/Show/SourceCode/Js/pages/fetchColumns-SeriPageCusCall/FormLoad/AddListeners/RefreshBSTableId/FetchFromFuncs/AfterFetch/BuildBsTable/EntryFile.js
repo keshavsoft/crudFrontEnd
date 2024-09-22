@@ -5,8 +5,9 @@ import { StartFunc as PrepareColumns } from "./PrepareColumns/EntryFile.js";
 const StartFunc = ({ inData }) => {
     var $table = $('#table');
 
-    optionsJson.data = inData;
-    optionsJson.columns = PrepareColumns({ inFirstRow: inData[0] });
+    optionsJson.data = inData.data;
+    optionsJson.columns = PrepareColumns({ inColumnsArray: inData.columns });
+    // optionsJson.columns = inData.columns;
 
     $table.bootstrapTable(optionsJson);
 };
