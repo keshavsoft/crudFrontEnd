@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "TableShow": "vite build --config src/Table/Show/vite.config.js"
+    "TableShow": "vite build --config src/Table/Show/vite.config.js",
+    "buildATSubTableSideBar": "vite build --config src/AllTables/WithSSR/SubTableSideBar/vite.config.js"
   },
   "author": "",
   "license": "ISC",

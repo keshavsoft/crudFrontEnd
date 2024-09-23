@@ -10,9 +10,6 @@ publicStatic/
 ColumnSchema/*.json
 TableSchema/*.json
 
-src/AllTables/WithSSR/WithSubTable/SourceCode/HtmlFiles
-src/AllTables/WithSSR/WithSubTable/SourceCode/Js
-
 src/AllTables/WithSSR/SubTableSideBar/SourceCode/HtmlFiles
 src/AllTables/WithSSR/SubTableSideBar/SourceCode/Js
 
@@ -21,8 +18,6 @@ src/Clients/Laundry/Washtex/SourceCode/Js
 
 src/Clients/Garmants/Mag/SourceCode/HtmlFiles
 src/Clients/Garmants/Mag/SourceCode/Js
-
-src/AllTables/WithSSR/WithSubTable/KCode/sideBarItems.json
 
 .env
 .vscode
