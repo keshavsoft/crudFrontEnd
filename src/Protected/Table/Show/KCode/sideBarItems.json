@@ -8,80 +8,105 @@
                 "url": "ItemNamesCreateSingle.html",
                 "icon": "bi bi-plus-circle"
             },
-           
             {
                 "name": "ShowWithInsert",
                 "url": "ItemNamesShow.html",
                 "icon": "bi bi-file-earmark-plus"
             }
-            
         ]
     },
     {
-        "name": "LedgerNames",
-        "key": "LedgerNames",
+        "name": "FetchColumns",
+        "key": "fetchColumns",
+        "icon": "bi bi-back",
         "children": [
             {
-                "name": "CreateSingle",
-                "url": "LedgerNamesCreateSingle.html",
+                "name": "Simple",
+                "url": "fetchColumns-Simple.html",
                 "icon": "bi bi-plus-circle"
             },
             {
-                "name": "ShowWithInsert",
-                "url": "LedgerNamesShow.html",
-                "icon": "bi bi-file-earmark-plus"
+                "name": "SimplePageWise",
+                "url": "fetchColumns-SimplePageNation.html",
+                "icon": "bi bi-plus-circle"
+            },
+            {
+                "name": "Serial",
+                "url": "fetchColumns-Serial.html",
+                "icon": "bi bi-plus-circle"
+            },
+            {
+                "name": "SerialPageWise",
+                "url": "fetchColumns-SerialPageNation.html",
+                "icon": "bi bi-plus-circle"
+            },
+            {
+                "name": "SerialPageCustom",
+                "url": "fetchColumns-SerialPageCustom.html",
+                "icon": "bi bi-plus-circle"
+            },
+            {
+                "name": "SerialPageCall",
+                "url": "fetchColumns-SeriPageCusCall.html",
+                "icon": "bi bi-plus-circle"
             }
         ]
     },
     {
-        "name": "SaleItems",
-        "key": "SaleItems",
+        "name": "SocialMedia",
+        "key": "socialMedia",
+        "icon": "bi bi-back",
         "children": [
             {
-                "name": "CreateSingle",
-                "url": "SaleItemsCreateSingle.html",
+                "name": "Call",
+                "url": "socialMedia-SeriPageCusCall.html",
                 "icon": "bi bi-plus-circle"
             },
             {
-                "name": "CreateDataList",
-                "url": "SaleItemsCreateDataList.html",
+                "name": "WhatsApp",
+                "url": "socialMedia-WhatsApp.html",
                 "icon": "bi bi-plus-circle"
             },
             {
-                "name": "CreateSubTable",
-                "url": "SaleItemsCreateSubTable.html",
-                "icon": "bi bi-table"
-            },
-            {
-                "name": "ShowWithInsert",
-                "url": "SaleItemsShow.html",
-                "icon": "bi bi-file-earmark-plus"
+                "name": "GDrive",
+                "url": "socialMedia-WA-GDrive.html",
+                "icon": "bi bi-plus-circle"
             }
         ]
     },
     {
-        "name": "Sales",
-        "key": "Sales",
+        "name": "Charts",
+        "key": "charts",
+        "icon": "bi bi-back",
         "children": [
             {
-                "name": "CreateSingle",
-                "url": "SalesCreateSingle.html",
+                "name": "Bar",
+                "url": "charts-Bar.html",
                 "icon": "bi bi-plus-circle"
-            },
+            }
+        ]
+    },
+    {
+        "name": "Sort",
+        "key": "sort",
+        "icon": "bi bi-back",
+        "children": [
             {
-                "name": "CreateDataList",
-                "url": "SalesCreateDataList.html",
+                "name": "GraduationCGPA",
+                "url": "sort-GraduationCGPA.html",
                 "icon": "bi bi-plus-circle"
-            },
+            }
+        ]
+    },
+    {
+        "name": "Import",
+        "key": "import",
+        "icon": "bi bi-back",
+        "children": [
             {
-                "name": "CreateSubTable",
-                "url": "SalesCreateSubTable.html",
-                "icon": "bi bi-table"
-            },
-            {
-                "name": "ShowWithInsert",
-                "url": "SalesShow.html",
-                "icon": "bi bi-file-earmark-plus"
+                "name": "Simple",
+                "url": "import-Simple.html",
+                "icon": "bi bi-plus-circle"
             }
         ]
     }

@@ -1,9 +1,8 @@
-import { StartFunc as prepareSideBar } from "./prepareSideBar.js";
+import sidebarItems from './sideBarItems.json' with {type: 'json'};
 
 const StartFunc = ({ mode, inFilesArray }) => {
     const variables = {};
     let LocalFiles = inFilesArray;
-    const sidebarItems = prepareSideBar();
 
     Object.keys(LocalFiles).forEach((filename) => {
         variables[filename + '.html'] = {

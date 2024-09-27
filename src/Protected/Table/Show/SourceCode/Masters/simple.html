@@ -39,21 +39,51 @@
 
 <body>
     <!-- ======= Header ======= -->
-    <header id="header" class="header fixed-top d-flex align-items-center d-print-none">
-        {% include 'src/AllTables/WithSSR/SubTableSideBar/SourceCode/Headers/allMasters.html' %}
+    <header id="header" class="header fixed-top d-flex align-items-center">
+        {% include 'src/Protected/Table/Show/SourceCode/Headers/Simple.html' %}
     </header><!-- End Header -->
+
     <!-- ======= Sidebar ======= -->
     <aside id="sidebar" class="sidebar">
-        {% include 'src/AllTables/WithSSR/SubTableSideBar/SourceCode/Sidebars/withCollapse.html' %}
+        {% include 'src/Protected/Table/Show/SourceCode/Sidebars/Simple.html' %}
     </aside>
     <!-- End Sidebar-->
+
     <main id="main" class="main">
         {% block content %}{% endblock %}
     </main><!-- End #main -->
+
     <!-- ======= Footer ======= -->
-    <footer id="footer" class="footer d-print-none">
-        {% include 'src/AllTables/WithSSR/SubTableSideBar/SourceCode/Footers/withVersion.html' %}
+    <footer id="footer" class="footer">
+        {% include 'src/Protected/Table/Show/SourceCode/Footers/withVersion.html' %}
     </footer><!-- End Footer -->
+
+    <div class="modal fade" id="LoginModalId" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form class="login-form">
+                        <h2 class="text-center mb-4">Login</h2>
+
+                        <div class="mb-3">
+                            <input type="text" id="UsernameId" class="form-control" placeholder="User name" autofocus>
+                        </div>
+                        <div class="mb-3">
+                            <input type="password" id="PasswordId" class="form-control" id="password"
+                                placeholder="Password">
+                        </div>
+                        <div class="mb-3 text-center mt-3">
+                            <button type="button" id="LoginButtonId"
+                                class="btn btn-primary btn-block w-100">Login</button>
+                        </div>
+                        <div class="text-center mt-3">
+                            <a href="#">Forgot password?</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
             class="bi bi-arrow-up-short"></i></a>
@@ -68,9 +98,8 @@
 
     <script>
         let jVarGlobalTableName = "{{ tableName }}";
-        let jVarGlobalSubTableName = "{{ subTableName }}";
         let jVarGlobalDataPk = "{{ DataPk }}";
-        let jVarGlobalSubTableTagId = "SubTableId";
+        let jVarGlobalTableTagId = "table";
     </script>
 
     <!-- Template Main JS File -->
