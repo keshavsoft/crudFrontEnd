@@ -1,0 +1,18 @@
+{
+    "idfield": "pk",
+    "showFooter": "true",
+    "pagination": "true",
+    "pageList": "[5,10,15,25, 50, 100, all]",
+    "data": [],
+    "columns": [
+        {
+            "field": "FileName",
+            "title": "File Name"
+        },
+        {
+            "field": "rows",
+            "title": "Rows",
+            "footerFormatter": ""
+        }
+    ]
+}
