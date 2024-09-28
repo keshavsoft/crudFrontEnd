@@ -9,7 +9,8 @@
         },
         {
             "field": "rows",
-            "title": "Rows"
+            "title": "Rows",
+            "footerFormatter": ""
         }
     ]
 }
