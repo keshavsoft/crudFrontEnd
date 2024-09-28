@@ -1,6 +1,6 @@
 import sidebarItems from './sideBarItems.json' with {type: 'json'};
 
-const StartFunc = ({ mode, inFilesArray, inSrcPath }) => {
+const StartFunc = ({ mode, inFilesArray }) => {
     const variables = {};
     let LocalFiles = inFilesArray;
 

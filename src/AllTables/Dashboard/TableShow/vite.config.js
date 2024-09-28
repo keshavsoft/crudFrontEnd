@@ -5,8 +5,6 @@ import { viteStaticCopy } from 'vite-plugin-static-copy';
 import path, { resolve } from 'path';
 import { fileURLToPath } from 'url';
 
-import { StartFunc as CreateFiles } from "./KCode/CreateFiles/EntryFile.js";
-
 import { StartFunc as StartFuncGetFiles } from "./KCode/getFiles.js";
 import { StartFunc as StartFuncGetVariables } from "./KCode/generateVariables.js";
 
@@ -20,14 +18,7 @@ const FrontEndDistFolder = "publicDir/AllTables/Dashboard/TableShow";
 
 const root = resolve(__dirname, `${SrcFolder}/${SourceFolderName}`);
 
-console.log("root : ", root);
-
-// const CommonTableName = "Sales";
-
-CreateFiles({ inSrcPath: SrcFolder, inSourceFolderName: SourceFolderName });
-
 let files = StartFuncGetFiles({ inSrcPath: `${SrcFolder}/${SourceFolderName}` });
-// console.log("files : ", files);
 
 build({
     configFile: false,

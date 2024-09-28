@@ -8,7 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "TableShow": "vite build --config src/Table/Show/vite.config.js",
     "buildATSubTableSideBar": "vite build --config src/AllTables/WithSSR/SubTableSideBar/vite.config.js",
-    "ProtectedTableShow": "vite build --config src/Protected/Table/Show/vite.config.js"
+    "ProtectedTableShow": "vite build --config src/Protected/Table/Show/vite.config.js",
+    "Dashboard": "vite build --config src/AllTables/Dashboard/TableShow/vite.config.js"
   },
   "author": "",
   "license": "ISC",
