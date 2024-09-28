@@ -9,8 +9,16 @@
                 "url": "fixedColumns-Simple.html"
             },
             {
+                "name": "SimplePage",
+                "url": "fixedColumns-SimplePage.html"
+            },
+            {
                 "name": "SimpTot",
                 "url": "fixedColumns-SimpTot.html"
+            },
+            {
+                "name": "SimpTotPage",
+                "url": "fixedColumns-SimpTotPage.html"
             }
         ]
     }

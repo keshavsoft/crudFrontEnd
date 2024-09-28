@@ -1,0 +1,17 @@
+{
+    "idfield": "pk",
+    "showFooter": "true",
+    "pagination": "true",
+    "data": [],
+    "columns": [
+        {
+            "field": "FileName",
+            "title": "File Name"
+        },
+        {
+            "field": "rows",
+            "title": "Rows",
+            "footerFormatter": ""
+        }
+    ]
+}
