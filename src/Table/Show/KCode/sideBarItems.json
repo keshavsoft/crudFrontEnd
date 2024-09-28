@@ -53,6 +53,17 @@
         ]
     },
     {
+        "name": "FixedColumns",
+        "key": "fixedColumns",
+        "icon": "bi bi-back",
+        "children": [
+            {
+                "name": "Simple",
+                "url": "fixedColumns-Simple.html"
+            }
+        ]
+    },
+    {
         "name": "SocialMedia",
         "key": "socialMedia",
         "icon": "bi bi-back",
