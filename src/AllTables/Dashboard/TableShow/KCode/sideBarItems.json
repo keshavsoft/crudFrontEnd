@@ -13,12 +13,20 @@
                 "url": "fixedColumns-SimplePage.html"
             },
             {
+                "name": "SimplePageCus",
+                "url": "fixedColumns-SimplePageCus.html"
+            },
+            {
                 "name": "SimpTot",
                 "url": "fixedColumns-SimpTot.html"
             },
             {
                 "name": "SimpTotPage",
                 "url": "fixedColumns-SimpTotPage.html"
+            },
+            {
+                "name": "SimpTotPageCus",
+                "url": "fixedColumns-SimpTotPageCus.html"
             }
         ]
     }
