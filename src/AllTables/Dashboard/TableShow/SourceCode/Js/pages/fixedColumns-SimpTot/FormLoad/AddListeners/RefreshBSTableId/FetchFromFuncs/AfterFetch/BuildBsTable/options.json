@@ -1,0 +1,15 @@
+{
+    "idfield": "pk",
+    "showFooter": "true",
+    "data": [],
+    "columns": [
+        {
+            "field": "FileName",
+            "title": "File Name"
+        },
+        {
+            "field": "rows",
+            "title": "Rows"
+        }
+    ]
+}
