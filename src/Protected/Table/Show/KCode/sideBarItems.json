@@ -107,6 +107,11 @@
                 "name": "Simple",
                 "url": "import-Simple.html",
                 "icon": "bi bi-plus-circle"
+            },
+            {
+                "name": "BlankRemove",
+                "url": "Import-BlankRemove.html",
+                "icon": "bi bi-plus-circle"
             }
         ]
     }

@@ -28,36 +28,48 @@ let StartFunc = (event) => {
     reader.readAsText(file);
 };
 
-function csvToObjs(data) {
-    const lines = data.split(/\r\n|\n/);
-    let [headings, ...entries] = lines;
-    headings = headings.split(',');
-    const objs = [];
-    entries.map(entry => {
-        let obj = entry.split(',');
-        objs.push(Object.fromEntries(headings.map((head, i) => [head, obj[i]])));
-    })
-    return objs;
+function Joes_remove(someArray, inIndexArray) {
+    let NewLocalArray = [];
+    // let LocalSplit = someArray.split(',');
+
+    inIndexArray.forEach(element => {
+        NewLocalArray.push(someArray[element]);
+    });
+
+    return NewLocalArray;
 };
 
 const csvToDataTable = ({ inData }) => {
     const lines = inData.split(/\r\n|\n/);
     let [headings, ...entries] = lines;
-    headings = headings.split(',');
-    let headingsArray = [];
 
-    headingsArray = headings.map(element => {
+    headings = headings.split(',');
+
+    let headingsArray = [];
+    let LocalNonEmptyHeadings = [];
+
+    headings.forEach((element, LoopIndex) => {
+        if (element === "" === false) {
+            LocalNonEmptyHeadings.push(LoopIndex);
+        };
+    });
+
+    headingsArray = LocalNonEmptyHeadings.map(element => {
         return {
-            field: element,
-            title: element
+            field: headings[element],
+            title: headings[element]
         };
     });
 
     const objs = [];
 
     entries.map(entry => {
-        let obj = entry.split(',');
-        objs.push(Object.fromEntries(headings.map((head, i) => [head, obj[i]])));
+        // let obj = entry.split(',');
+        // objs.push(Joes_remove(obj, LocalNonEmptyHeadings));
+
+        let obj = Joes_remove(entry.split(','), LocalNonEmptyHeadings);
+
+        objs.push(Object.fromEntries(LocalNonEmptyHeadings.map((head, i) => [headings[head], obj[i]])));
     });
 
     return {
