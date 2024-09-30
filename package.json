@@ -10,7 +10,8 @@
     "buildATSubTableSideBar": "vite build --config src/AllTables/WithSSR/SubTableSideBar/vite.config.js",
     "ProtectedTableShow": "vite build --config src/Protected/Table/Show/vite.config.js",
     "Dashboard": "vite build --config src/AllTables/Dashboard/TableShow/vite.config.js",
-    "CreateVertical": "vite build --config src/Protected/Create/Vertical/vite.config.js"
+    "CreateVertical": "vite build --config src/Protected/Create/Vertical/vite.config.js",
+    "CreateStatic": "vite build --config src/Protected/Create/Static/vite.config.js"
   },
   "author": "",
   "license": "ISC",
