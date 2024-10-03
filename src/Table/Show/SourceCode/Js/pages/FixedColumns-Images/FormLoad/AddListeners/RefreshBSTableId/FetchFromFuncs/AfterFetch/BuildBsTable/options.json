@@ -1,0 +1,16 @@
+{
+    "idfield": "pk",
+    "showFooter": "true",
+    "data": [],
+    "columns": [
+        {
+            "field": "StudentName",
+            "title": "Student Name"
+        },
+        {
+            "field": "KS-ImageUploadButton",
+            "title": "ImageUpload",
+            "formatter": "jFLocalImageColumn"
+        }
+    ]
+}
