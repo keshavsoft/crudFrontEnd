@@ -60,6 +60,10 @@
             {
                 "name": "Simple",
                 "url": "fixedColumns-Simple.html"
+            },
+            {
+                "name": "ShowAll",
+                "url": "fixedColumns-ShowAll.html"
             }
         ]
     },
