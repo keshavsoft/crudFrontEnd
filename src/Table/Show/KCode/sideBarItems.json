@@ -59,11 +59,15 @@
         "children": [
             {
                 "name": "Simple",
-                "url": "fixedColumns-Simple.html"
+                "url": "FixedColumns-Simple.html"
             },
             {
                 "name": "ShowAll",
                 "url": "fixedColumns-ShowAll.html"
+            },
+            {
+                "name": "Images",
+                "url": "FixedColumns-Images.html"
             }
         ]
     },
