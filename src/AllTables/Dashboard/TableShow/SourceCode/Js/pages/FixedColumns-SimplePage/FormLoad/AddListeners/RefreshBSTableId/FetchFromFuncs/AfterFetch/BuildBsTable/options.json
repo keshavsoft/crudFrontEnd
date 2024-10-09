@@ -10,7 +10,8 @@
         },
         {
             "field": "rows",
-            "title": "Rows"
+            "title": "Rows",
+            "align": "right"
         }
     ]
 }
