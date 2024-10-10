@@ -4,13 +4,18 @@
     "data": [],
     "columns": [
         {
+            "field": "#",
+            "title": "#",
+            "formatter": ""
+        },
+        {
             "field": "StudentName",
             "title": "Student Name"
         },
         {
-            "field": "KS-ImageUploadButton",
-            "title": "ImageUpload",
-            "formatter": "jFLocalImageColumn"
+            "field": "Image",
+            "title": "Image",
+            "formatter": ""
         }
     ]
 }
