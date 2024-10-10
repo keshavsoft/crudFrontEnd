@@ -1,6 +1,9 @@
 {
     "idfield": "pk",
     "showFooter": "true",
+    "search": true,
+    "pagination": true,
+    "pageList": "[5, 10, 25, 50, 100, all]",
     "data": [],
     "columns": [
         {
@@ -13,9 +16,21 @@
             "title": "Student Name"
         },
         {
+            "field": "Mobile",
+            "title": "Mobile"
+        },
+        {
+            "field": "CollegeName",
+            "title": "CollegeName"
+        },
+        {
             "field": "Image",
             "title": "Image",
             "formatter": ""
+        },
+        {
+            "field": "pk",
+            "title": "pk"
         }
     ]
 }

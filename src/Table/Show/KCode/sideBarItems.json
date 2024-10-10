@@ -59,7 +59,7 @@
         "children": [
             {
                 "name": "Simple",
-                "url": "FixedColumns-Simple.html"
+                "url": "fixedColumns-Simple.html"
             },
             {
                 "name": "ShowAll",
@@ -67,7 +67,7 @@
             },
             {
                 "name": "Images",
-                "url": "FixedColumns-Images.html"
+                "url": "fixedColumns-Images.html"
             }
         ]
     },

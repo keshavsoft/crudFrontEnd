@@ -6,7 +6,7 @@ let StartFunc = ({ inFindColumn }) => {
 
 let jVarLocalFormatterFunc = (value, row, index) => {
     return [
-        `<a href="${ConfigJson.BSTable.Columns.Image.replace("$RowPk", row.pk)}" class="btn btn-warning">`,
+        `<a href="${ConfigJson.BSTable.Columns.Image.replace("$RowPk", row.pk)}" class="btn btn-warning" target="_blank">`,
         `<i class="bi bi-image"></i>`,
         `</a>`
     ].join('');
