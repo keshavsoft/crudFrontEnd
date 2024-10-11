@@ -1,4 +1,4 @@
 {
     "routePath": "binSecured",
-    "PostUrl": "/binV4/MastersItems/Create"
+    "PostUrl": "/binV4/StudentNames/Create"
 }
