@@ -5,6 +5,8 @@ import { viteStaticCopy } from 'vite-plugin-static-copy';
 import path, { resolve } from 'path';
 import { fileURLToPath } from 'url';
 
+import { StartFunc as CreateFiles } from "./KCode/CreateFiles/EntryFile.js";
+
 import { StartFunc as StartFuncGetFiles } from "./KCode/getFiles.js";
 import { StartFunc as StartFuncGetVariables } from "./KCode/generateVariables.js";
 
@@ -17,7 +19,9 @@ const FrontEndDistFolder = "publicDir/TableShowFromJs";
 
 const root = resolve(__dirname, SrcFolder);
 
-console.log("root : ", root);
+console.log("root--- : ", root);
+
+CreateFiles({ inSrcPath: SrcFolder }).then();
 
 const CommonTableName = "StudentNames";
 
