@@ -1,3 +1,4 @@
 {
-    "GetUrl": "/binV4/StudentNames/Search"
+    "StartRoute": "binV4",
+    "GetUrl": "/StudentNames/Search"
 }
