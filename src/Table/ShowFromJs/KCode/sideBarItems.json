@@ -68,6 +68,10 @@
             {
                 "name": "Images",
                 "url": "fixedColumns-Images.html"
+            },
+            {
+                "name": "FilterByCollege",
+                "url": "fixedColumns-FilterByCollege.html"
             }
         ]
     },
@@ -125,6 +129,18 @@
             {
                 "name": "Simple",
                 "url": "import-Simple.html",
+                "icon": "bi bi-plus-circle"
+            }
+        ]
+    },
+    {
+        "name": "Filter",
+        "key": "filter",
+        "icon": "bi bi-back",
+        "children": [
+            {
+                "name": "College",
+                "url": "filterByCollege.html",
                 "icon": "bi bi-plus-circle"
             }
         ]

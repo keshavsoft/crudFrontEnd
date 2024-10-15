@@ -1,0 +1,31 @@
+{
+    "idfield": "pk",
+    "showFooter": "true",
+    "search": true,
+    "filterControl": true,
+    "data": [],
+    "columns": [
+        {
+            "field": "KS-Serial",
+            "title": "#",
+            "formatter": ""
+        },
+        {
+            "field": "StudentName",
+            "title": "Student Name"
+        },
+        {
+            "field": "Mobile",
+            "title": "WhatsApp"
+        },
+        {
+            "field": "CollegeName",
+            "title": "CollegeName",
+            "filterControl": "select"
+        },
+        {
+            "field": "pk",
+            "title": "pk"
+        }
+    ]
+}

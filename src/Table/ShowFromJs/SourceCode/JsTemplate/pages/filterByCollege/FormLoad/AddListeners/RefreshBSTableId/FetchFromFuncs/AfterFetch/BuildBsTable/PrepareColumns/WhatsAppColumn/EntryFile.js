@@ -7,8 +7,6 @@ const StartFunc = () => {
 };
 
 const jFLocalFormatter = (value, row, index) => {
-    console.log("aaaaaaaaaaaa : ", value);
-
     const jVarLocalMessageToSend = "Greetings from KeshavSoft";
 
     const jVarLocalApiLink = `https://api.whatsapp.com/send?phone=91${row.Mobile}
