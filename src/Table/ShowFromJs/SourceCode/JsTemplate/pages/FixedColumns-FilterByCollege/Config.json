@@ -1,4 +1,5 @@
 {
+    "GetUrlEndPoint": "Search",
     "GetUrl": "/binV4/StudentNames/Search",
     "BSTable": {
         "Columns": {

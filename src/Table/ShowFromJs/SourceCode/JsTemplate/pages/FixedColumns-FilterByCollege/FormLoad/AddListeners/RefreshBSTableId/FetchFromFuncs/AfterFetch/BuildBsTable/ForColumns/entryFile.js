@@ -8,8 +8,6 @@ let StartFunc = ({ inColumns }) => {
     let LocalColumnImage = LocalColumns.find(element => element.field === "Image");
     let LocalColumnWhatsApp = LocalColumns.find(element => element.title === "WhatsApp");
 
-    console.log("LocalColumnOperateFine : ", LocalColumnOperateFine);
-
     if (LocalColumnOperateFine === undefined === false) {
         ColumnOperate({ inFindColumn: LocalColumnOperateFine });
     };

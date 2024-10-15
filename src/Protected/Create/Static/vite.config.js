@@ -5,6 +5,8 @@ import { viteStaticCopy } from 'vite-plugin-static-copy';
 import path, { resolve } from 'path';
 import { fileURLToPath } from 'url';
 
+import { StartFunc as CreateFiles } from "./KCode/CreateFiles/EntryFile.js";
+
 import { StartFunc as StartFuncGetFiles } from "./KCode/getFiles.js";
 import { StartFunc as StartFuncGetVariables } from "./KCode/generateVariables.js";
 
@@ -17,6 +19,8 @@ const SrcFolder = "src/Protected/Create/Static";
 const FrontEndDistFolder = "publicDir/Protected/Create/Static";
 
 const root = resolve(__dirname, `${SrcFolder}/${SourceFolderName}`);
+
+CreateFiles({ inSrcPath: `${SrcFolder}/${SourceFolderName}` }).then();
 
 let files = StartFuncGetFiles({ inSrcPath: `${SrcFolder}/${SourceFolderName}` });
 
