@@ -12,7 +12,8 @@
     "Dashboard": "vite build --config src/AllTables/Dashboard/TableShow/vite.config.js",
     "CreateVertical": "vite build --config src/Protected/Create/Vertical/vite.config.js",
     "CreateStatic": "vite build --config src/Protected/Create/Static/vite.config.js",
-    "TableShowJs": "vite build --config src/Table/ShowFromJs/vite.config.js"
+    "TableShowJs": "vite build --config src/Table/ShowFromJs/vite.config.js",
+    "UnProtected-CreateStatic": "vite build --config src/UnProtected/Create/Static/vite.config.js"
   },
   "author": "",
   "license": "ISC",

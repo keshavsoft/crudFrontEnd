@@ -15,6 +15,7 @@ src/AllTables/WithSSR/SubTableSideBar/SourceCode/Js
 
 src/Table/ShowFromJs/SourceCode/Js
 src/Protected/Create/Static/SourceCode/Js
+src/UnProtected/Create/Static/SourceCode/Js
 
 src/Clients/Garmants/Mag/SourceCode/HtmlFiles
 src/Clients/Garmants/Mag/SourceCode/Js

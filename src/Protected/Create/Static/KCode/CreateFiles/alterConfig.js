@@ -10,7 +10,7 @@ const StartFunc = async ({ inSrcPath }) => {
     const defaultData = { error: "" };
     const db = await JSONFilePreset(`${inSrcPath}/Js/pages/Config.json`, defaultData)
 
-    db.data.StartUrl = CommonStartUrl;
+    db.data.StartUrl = "binV5Secured";
     db.data.TableName = CommonTableName;
 
     await db.write();

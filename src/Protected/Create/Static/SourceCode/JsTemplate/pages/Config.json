@@ -1,4 +1,4 @@
 {
-    "StartUrl": "",
-    "TableName": ""
-}
+    "StartUrl": "binV5Secured",
+    "TableName": "StudentNames"
+  }
