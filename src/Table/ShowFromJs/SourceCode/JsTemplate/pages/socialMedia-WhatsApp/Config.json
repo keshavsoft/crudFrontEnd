@@ -1,3 +1,8 @@
 {
-    "GetUrl": "/binV4/StudentNames/ShowWithColumns"
+    "GetUrl": "/binV4/StudentNames/ShowWithColumns",
+    "BSTable": {
+        "Columns": {
+            "Image": "/binV4/StudentNames/Images/anyExt/$RowPk"
+        }
+    }
 }

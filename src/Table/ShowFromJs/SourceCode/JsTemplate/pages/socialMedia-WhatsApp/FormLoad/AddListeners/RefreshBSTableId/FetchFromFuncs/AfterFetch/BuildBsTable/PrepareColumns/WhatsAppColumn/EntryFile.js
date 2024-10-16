@@ -16,7 +16,7 @@ const jVarLocalFormatterFunc = (value, row, index) => {
             jVarLocalMobileToApi.jVarLocalMobile.toString();
         } else {
             if (row.Mobile.indexOf("+") >= 0) {
-                jVarLocalMobileToApi = row.Mobile.trim();
+                jVarLocalMobileToApi = row.Mobile.trim().replace("+", "");
             } else {
                 jVarLocalMobileToApi = `91${row.Mobile.trim()}`;
             };
