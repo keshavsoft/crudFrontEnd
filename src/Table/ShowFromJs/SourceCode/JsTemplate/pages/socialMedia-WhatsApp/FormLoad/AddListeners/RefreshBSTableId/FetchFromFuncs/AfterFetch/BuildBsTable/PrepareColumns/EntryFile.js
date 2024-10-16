@@ -5,12 +5,19 @@ import { StartFunc as WhatsAppColumn } from "./WhatsAppColumn/EntryFile.js";
 const StartFunc = ({ inColumnsArray }) => {
     let jVarLocalReturnArray = inColumnsArray;
 
-    jVarLocalReturnArray[2].sortable = true;
-    jVarLocalReturnArray[9].sortable = true;
+    let LocalColumnWhatsApp = jVarLocalReturnArray.find(element => element.title === "Mobile");
+    console.log("LocalColumnWhatsApp : ", LocalColumnWhatsApp);
 
-    jVarLocalReturnArray.unshift(WhatsAppColumn());
-    jVarLocalReturnArray.unshift(CallColumn());
-    jVarLocalReturnArray.unshift(SerialColumn());
+    if (LocalColumnWhatsApp === undefined === false) {
+        WhatsAppColumn({ inFindColumn: LocalColumnWhatsApp });
+    };
+
+    // jVarLocalReturnArray[2].sortable = true;
+    // jVarLocalReturnArray[9].sortable = true;
+
+    // jVarLocalReturnArray.unshift(WhatsAppColumn());
+    // jVarLocalReturnArray.unshift(CallColumn());
+    // jVarLocalReturnArray.unshift(SerialColumn());
 
     return jVarLocalReturnArray;
 };

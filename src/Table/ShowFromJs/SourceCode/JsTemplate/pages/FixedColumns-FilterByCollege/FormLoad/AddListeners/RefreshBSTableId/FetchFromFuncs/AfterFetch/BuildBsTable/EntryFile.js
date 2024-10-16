@@ -13,8 +13,6 @@ const StartFunc = ({ inData }) => {
         inColumnsObject: jVarLocalReturnObject
     });
 
-    console.log("optionsJson : ", optionsJson);
-
     ForColumns({ inColumns: optionsJson.columns });
 
     $table.bootstrapTable(optionsJson);
