@@ -5,11 +5,11 @@
         "icon": "bi bi-back",
         "children": [
             {
-                "name": "Simple",
+                "name": "All_Tables",
                 "url": "fixedColumns-Simple.html"
             },
             {
-                "name": "SimplePage",
+                "name": "Data_Tables",
                 "url": "fixedColumns-SimplePage.html"
             },
             {
