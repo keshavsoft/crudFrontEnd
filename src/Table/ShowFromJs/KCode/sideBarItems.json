@@ -156,5 +156,17 @@
                 "icon": "bi bi-plus-circle"
             }
         ]
+    },
+    {
+        "name": "Export",
+        "key": "export",
+        "icon": "bi bi-back",
+        "children": [
+            {
+                "name": "Simple",
+                "url": "export-Simple.html",
+                "icon": "bi bi-plus-circle"
+            }
+        ]
     }
 ]

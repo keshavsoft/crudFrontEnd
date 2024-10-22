@@ -1,0 +1,9 @@
+{
+    "GetUrlEndPoint": "Search",
+    "GetUrl": "/binV4/StudentNames/Search",
+    "BSTable": {
+        "Columns": {
+            "Image": "/binV4/StudentNames/Images/anyExt/$RowPk"
+        }
+    }
+}
