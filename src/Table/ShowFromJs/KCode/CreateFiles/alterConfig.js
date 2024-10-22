@@ -8,8 +8,13 @@ const CommonStartUrl = process.env.StartUrl;
 
 const StartFunc = async ({ inSrcPath }) => {
     const defaultData = { error: "" };
-    const db = await JSONFilePreset(`${inSrcPath}/Js/pages/Config.json`, defaultData)
+    const LocalFilePath = `${inSrcPath}/Js/pages/Config.json`;
+    console.log("LocalFilePath : ", LocalFilePath);
 
+    const db = await JSONFilePreset(LocalFilePath, defaultData);
+    db.read();
+
+    console.log("-------------- : ", db.data);
     db.data.StartUrl = CommonStartUrl;
     db.data.TableName = CommonTableName;
 

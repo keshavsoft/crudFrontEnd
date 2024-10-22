@@ -1,13 +1,11 @@
 import fs from "fs";
 import { StartFunc as alterConfig } from "./alterConfig.js";
-// const CommonHtmlFiles = ["Index", "Login", "register", "validation"];
 
 import dotenv from 'dotenv';
 dotenv.config();
 
 const StartFunc = async ({ inSrcPath }) => {
     const root = `${inSrcPath}/Js`;
-   
 
     if (fs.existsSync(root)) {
         fs.rmSync(root, { recursive: true });
