@@ -6,11 +6,11 @@
         "children": [
             {
                 "name": "All_Tables",
-                "url": "fixedColumns-Simple.html"
+                "url": "fixedColumns-All_Tables.html"
             },
             {
                 "name": "Data_Tables",
-                "url": "fixedColumns-SimplePage.html"
+                "url": "fixedColumns-Data_Tables.html"
             },
             {
                 "name": "SimplePageCus",
