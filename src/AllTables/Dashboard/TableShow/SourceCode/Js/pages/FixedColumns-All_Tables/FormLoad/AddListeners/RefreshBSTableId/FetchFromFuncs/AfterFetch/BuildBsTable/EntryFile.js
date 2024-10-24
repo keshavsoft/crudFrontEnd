@@ -1,13 +1,15 @@
 import optionsJson from './options.json' with {type: 'json'};
 
+import { StartFunc as ForColumns } from "./ForColumns/entryFile.js";
+
 const StartFunc = ({ inData }) => {
-    const LocalDataAsArray = inData;
-
     var $table = $('#table');
+    optionsJson.data = inData
 
-    optionsJson.data = LocalDataAsArray;
+    ForColumns({ inColumns: optionsJson.columns });
 
     $table.bootstrapTable(optionsJson);
 };
 
 export { StartFunc };
+
