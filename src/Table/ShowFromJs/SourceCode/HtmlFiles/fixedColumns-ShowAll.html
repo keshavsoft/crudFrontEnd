@@ -1,6 +1,4 @@
-{% set title = 'Account Profile' %}
-
-{% extends 'src/Table/Show/SourceCode/Masters/Simple.html' %}
+{% extends 'src/Table/ShowFromJs/SourceCode/Masters/Simple.html' %}
 
 {% block content %}
 <div class="pagetitle">
@@ -26,6 +24,6 @@
 {% block js %}
 <script
     src="https://cdn.jsdelivr.net/npm/bootstrap-table@1.22.6/dist/extensions/export/bootstrap-table-export.min.js"></script>
-<!-- <script type="module" src="../Js/pages/sort-GraduationCGPA/StartFunc.js"></script> -->
-<script type="module" src="../Js/pages/fixedColumns-ShowAll/StartFunc.js"></script>
+<!-- <script type="module" src="../Js/pages/fetchColumns-Simple/StartFunc.js"></script> -->
+<script type="module" src="../Js/pages/FixedColumns-ShowAll/StartFunc.js"></script>
 {% endblock %}
