@@ -9,7 +9,7 @@ const StartFunc = ({ inData }) => {
     var $table = $('#table');
 
     optionsJson.data = inData;
-    optionsJson.columns = PrepareColumns({ inFirstRow: inData[0] });
+    // optionsJson.columns = PrepareColumns({ inFirstRow: inData[0] });
 
     $table.bootstrapTable(optionsJson);
 };

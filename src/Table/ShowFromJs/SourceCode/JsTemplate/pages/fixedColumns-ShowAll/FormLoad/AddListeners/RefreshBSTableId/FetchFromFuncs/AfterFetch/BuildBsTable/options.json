@@ -2,5 +2,8 @@
     "idfield": "pk",
     "showFooter": "true",
     "data": [],
-    "columns": []
+    "columns": [{
+        "field": "StudentName",
+        "title": "Student Name"
+    }]
 }
