@@ -1,0 +1,22 @@
+{
+    "showPaginationSwitch": "true",
+    "pagination": "true",
+    "pageList": "[5, 25, 50, all]",
+    "pageSize": 5,
+    "data": [],
+    "columns": [
+        {
+            "field": "KS-Serial",
+            "title": "#",
+            "formatter": ""
+        },
+        {
+            "field": "StudentName",
+            "title": "Student Name"
+        },
+        {
+            "field": "YearPassout",
+            "title": "Year of Passout"
+        }
+    ]
+}

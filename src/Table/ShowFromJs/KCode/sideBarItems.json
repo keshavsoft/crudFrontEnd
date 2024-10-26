@@ -130,6 +130,11 @@
                 "name": "Simple",
                 "url": "import-Simple.html",
                 "icon": "bi bi-plus-circle"
+            },
+            {
+                "name": "Excel",
+                "url": "import-Excel.html",
+                "icon": "bi bi-plus-circle"
             }
         ]
     },
