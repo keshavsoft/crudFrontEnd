@@ -2,10 +2,12 @@ import KeysJson from './Keys.json' with {type: 'json'};
 
 let StartFunc = () => {
     let jVarLocalForm = document.getElementById("FormId");
+    let StudentName = document.getElementById("StudentName").value;
+    let Mobile = document.getElementById("Mobile").value;
 
     KeysJson.body = JSON.stringify({
-        StudentName: "Sridhar",
-        Mobile: 1111111111
+        StudentName: StudentName,
+        Mobile: Mobile
     });
 
     return KeysJson;
