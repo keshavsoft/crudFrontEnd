@@ -66,6 +66,10 @@
                 "url": "fixedColumns-ShowAll.html"
             },
             {
+                "name": "Mobile_Numbers",
+                "url": "fixedColumns-Mobile.html"
+            },
+            {
                 "name": "Images",
                 "url": "fixedColumns-Images.html"
             },
