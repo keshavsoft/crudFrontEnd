@@ -10,6 +10,10 @@
         {
             "field": "Mobile",
             "title": "Mobile_Number"
+        },
+        {
+            "field": "KS-Save",
+            "title": "Save"
         }
     ],
     "onPostBody": "DynamicFunction"
