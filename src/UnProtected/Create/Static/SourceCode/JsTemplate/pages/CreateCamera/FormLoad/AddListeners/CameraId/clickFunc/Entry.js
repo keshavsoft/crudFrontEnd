@@ -4,7 +4,7 @@ let StartFunc = () => {
         audio: false,
         video: { width: 700, height: 500 },
     };
-
+debugger
     navigator.mediaDevices
         .getUserMedia(constraints)
         .then((mediaStream) => {

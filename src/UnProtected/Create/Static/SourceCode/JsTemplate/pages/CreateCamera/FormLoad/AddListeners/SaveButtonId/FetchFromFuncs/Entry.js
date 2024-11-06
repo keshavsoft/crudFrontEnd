@@ -4,7 +4,7 @@ import { StartFunc as StartFuncAfterFetch } from "./AfterFetch/EntryFile.js";
 
 let StartFunc = async () => {
     let jVarLocalFromCheck = CheckFunc();
-
+debugger
     if (jVarLocalFromCheck) {
         let jVarLocalResponse = await StartFuncFetchFuncs();
 
