@@ -1,5 +1,5 @@
 {
     "routePath": "binSecured",
     "PostUrl": "/binV4/StudentNames/Create",
-    "PostUrlEndPoint": "Upload"
+    "PostUrlEndPoint": "Upload/ImageAsBase64"
 }

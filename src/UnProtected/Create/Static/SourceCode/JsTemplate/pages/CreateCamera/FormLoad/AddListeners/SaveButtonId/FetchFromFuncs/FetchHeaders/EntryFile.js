@@ -2,11 +2,13 @@ import KeysJson from './Keys.json' with {type: 'json'};
 
 let StartFunc = () => {
     let jVarLocalForm = document.getElementById("FormId");
-    var formData = new FormData(jVarLocalForm);
-    formData.append("image", jFLocalImageToUrl());
-    debugger
-    KeysJson.body = formData;
-    // KeysJson.body = JSON.stringify(jFLocalserializeFormData(jVarLocalForm));
+    // var formData = new FormData(jVarLocalForm);
+    // formData.append("image", jFLocalImageToUrl());
+    // debugger
+    // KeysJson.body = formData;
+    let jVarLocalData = jFLocalserializeFormData(jVarLocalForm);
+    jVarLocalData.image = jFLocalImageToUrl();
+    KeysJson.body = JSON.stringify(jVarLocalData);
 
     return KeysJson;
 };
@@ -38,6 +40,7 @@ const jFLocalImageToUrl = () => {
 
     ctx.drawImage(img, 0, 0, c.width, c.height);
     var base64String = c.toDataURL();
+    console.log("base64Strings : ", base64String);
 
     return base64String;
 };
