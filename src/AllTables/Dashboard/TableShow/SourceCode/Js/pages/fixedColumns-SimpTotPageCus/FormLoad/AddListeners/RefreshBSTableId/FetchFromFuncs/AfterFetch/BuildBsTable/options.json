@@ -6,6 +6,11 @@
     "data": [],
     "columns": [
         {
+            "field": "KS-Serial",
+            "title": "#",
+            "formatter": "jFGlobalSerialColumn"
+        },
+        {
             "field": "FileName",
             "title": "File Name"
         },
