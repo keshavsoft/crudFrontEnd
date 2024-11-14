@@ -4,7 +4,12 @@
     "pagination": "true",
     "pageList": "[5,10,15,25, 50, 100, all]",
     "data": [],
-    "columns": [
+    "columns": [    
+        {
+            "field": "KS-Serial",
+            "title": "#",
+            "formatter": "jFGlobalSerialColumn"
+        },
         {
             "field": "FileName",
             "title": "File Name"
