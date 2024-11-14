@@ -8,5 +8,10 @@
         "name": "CreateCamera",
         "url": "CreateCamera.html",
         "icon": "bi bi-plus-circle"
+    },
+    {
+        "name": "CreateWithNotification",
+        "url": "CreateWithNotification.html",
+        "icon": "bi bi-plus-circle"
     }
 ]
